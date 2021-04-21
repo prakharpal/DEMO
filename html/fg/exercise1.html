@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <h3>Exercise 1</h3>
+    <br>
+    <table frame="box" align="center" style="width:60%;">
+        <caption style="text-align:center;caption-side:top;background-color:black;">
+            <b style="color: white;">User Profile</b>
+        </caption>
+
+
+        <td>
+            <img src="../assets/userprofile.jpg" height="275" width="275" style="margin: 12px 12px;">
+        </td>
+
+        <td>
+            <div style="background-color: lavender;">
+                Name:<br>
+                Email:<br>
+
+                Contact Number :<br>
+
+                Height:<br>
+
+                Weight:<br>
+
+                Qualification:<br>
+
+                Address:
+            </div>
+        </td>
+        <td>
+            <div >
+                {{userData.userName}}<br>
+                {{userData.emailId}}<br>
+                {{userData.contactNo}}<br>
+                {{userData.height}}<br>
+                {{userData.weight}} Kgs<br>
+                {{userData.education}}<br>
+                {{userData.address}}<br>
+            </div>
+        </td>
+
+    </table>
+
+</body>
+
+</html>

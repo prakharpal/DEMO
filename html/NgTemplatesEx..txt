@@ -1,0 +1,21 @@
+myval:string=""
+ 
+  myFun(val){
+    let de:string='';
+    if (val===''){
+      de=''
+    }
+    else{
+      de='You are searching for : '
+    }
+    this.myval=de+val; 
+  }
+
+*************************************************************
+<div style="margin-left: 150mm; margin-top: 40mm;">
+<h3 style="color:rgb(240, 166, 8);"> May I help you? </h3><br>
+<p><b>Enter the book name:</b></p><br>
+<input #something (keyup)="myFun(something.value)"> <br><br>
+
+<p style="color:rgb(240, 166, 8);"><strong>{{myval}}</strong> </p>
+</div>
